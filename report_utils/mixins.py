@@ -14,7 +14,7 @@ from openpyxl.workbook import Workbook
 from openpyxl.writer.excel import save_virtual_workbook
 from openpyxl.cell import get_column_letter
 from openpyxl.styles import Font
-import csv
+import unicodecsv as csv
 import re
 from collections import namedtuple
 from decimal import Decimal
